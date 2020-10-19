@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100');
+
+  	body{
+			margin: 0;
+			font-family: 'Alegreya Sans', sans-serif;
+			font-weight:100;
+		}
+		.container{
+			width: 75%;
+			margin: 0 auto;
+			padding-top: 7px;
+		}
+		header{
+			background-color: rgb(51,51,51);
+			width: 100%;
+			height: 43px;
+		}
+		#logo{
+      color:white;
+      font-size:22px;
+			position: absolute;
+      top:8px;
+			left: 12%;
+			float: left;
+			margin-top: 1px;
+		}
+    #logo:hover{
+      cursor:pointer;
+			opacity: .6;
+			transition: .3s;
+		}
+		nav{
+			position: absolute;
+			left: 19%;
+			margin-top: 4px;
+		}
+		nav a{
+			text-decoration: none;
+			color: white;
+			margin-right: 70px;
+			font-size: 18px;
+		}
+		nav a:hover{
+			opacity: .5;
+			transition: .3s;
+		}
+		.right{
+			float: right;
+		}
+		#search{
+			position: absolute;
+			right: 244px;
+			margin-top: 7px;
+      color:white;
+      font-weight:normal;
+		}
+    #search:hover{
+      opacity: .5;
+			transition: .3s;
+      cursor:pointer;
+    }
+		#lock{
+      color:white;
+			margin-top: 6px;
+			margin-right: -3px;
+		}
+    #lock:hover{
+      opacity: .5;
+			transition: .3s;
+      cursor:pointer;
+    }
+		.banner{                 background:url("http://mateen.kurdzman.net/ban.png") no-repeat;
+			width: 100%;
+      height: 585px;
+      background-position:center;
+      background-size:cover;
+		}
+		
